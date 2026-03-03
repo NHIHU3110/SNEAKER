@@ -2,6 +2,10 @@
     "version": 2,
     "rewrites": [
         {
+            "source": "/api/(.*)",
+            "destination": "https://sneaker-gn48.vercel.app/api/$1"
+        },
+        {
             "source": "/(.*)",
             "destination": "/index.html"
         }
